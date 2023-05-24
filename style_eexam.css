@@ -1,0 +1,79 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #007bff;
+}
+
+/* Info box styles */
+.info_box {
+    width: 600px;
+    height: 400px;
+    margin: 151px auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.info-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info-list {
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+ .quit{
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+.start{
+    color: white;
+}
+ .restart{
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+button:hover {
+    box-shadow: 10px 5px 5px rgb(105, 102, 102);
+    transition: 0.5s;
+}
+
+select {
+    padding: 9px 0px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+

@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007bff;
+}
+header {
+background-color: #333;
+color: #fff;
+padding: 20px;
+}
+
+nav {
+background-color: #f2f2f2;
+padding: 10px;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+}
+
+nav li {
+margin-right: 10px;
+}
+
+nav a {
+color: #333;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #fff;
+background-color: #000000;
+}
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 154px;
+}
+
+label {
+color: white;
+font-size: 22px;
+margin-bottom: 10px;
+}
+
+input[type=file] {
+border: none;
+background-color: #f2f2f2;
+padding: 10px;
+border-radius: 5px;
+font-size: 16px;
+box-shadow: 2px 2px 5px #ccc;
+}
+
+.upload-btn {
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+margin-top: 10px;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+
+.upload-btn:hover {
+background-color: #fff;
+color: #333;
+box-shadow: 2px 2px 5px #ccc;
+}
+
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin: 95px 0px;
+    font-size: 0.9em;
+    width: 66%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 5px; */
+    border-radius: 13px 13px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0 0 0 / 15%);
+}
+
+.content-table thead tr {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+th{
+    padding: 12px 15px;
+}
+
+td {
+    padding: 12px 15px;
+    background-color: white;
+}
+/* Small devices (mobile phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    body{
+        height: 100vh;
+    }
+    header {
+      padding: 10px;
+    }
+    
+    nav {
+      padding: 5px;
+      font-size: small;
+    }
+    
+    label {
+      font-size: 18px;
+    }
+    
+    input[type=file] {
+      font-size: 14px;
+    }
+    
+    .content-table {
+      margin: 50px 10px;
+      font-size: 0.8em;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    header {
+      padding: 30px;
+    }
+    
+    nav {
+      padding: 10px;
+    }
+    
+    label {
+      font-size: 20px;
+    }
+    
+    input[type=file] {
+      font-size: 16px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    header {
+      padding: 20px;
+    }
+    
+    nav {
+      padding: 15px;
+    }
+    
+    label {
+      font-size: 22px;
+    }
+    
+    input[type=file] {
+      font-size: 18px;
+    }
+  }
+  

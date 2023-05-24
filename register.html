@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration form </title>
+       
+        <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand:wght@600&display=swap');
+            
+body{
+    background-color: rgb(63 176 181);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#name{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5%;
+    outline: 0;
+    border: 1px solid lightgrey;
+}
+td{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+table {
+    
+    color: white;
+    background-color: rgb(0 102 184 / 98%);
+    font-size: 16px;
+    font-family: serif;
+    margin-left: 462px;
+    padding: 5px;
+    border: 5px solid white;
+    text-align: -webkit-center;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #name, #psd {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  td {
+    text-align: center;
+
+  }
+  textarea {
+    width: 100%;
+  }
+}
+
+
+        </style>
+    </head>
+    <body>
+        <form action="">
+        <h1>Student Registration Form </h1>
+        <table  cellpadding="10">
+            <tr>
+                <td>First Name :</td>
+                <td><input type="text" id="name" name="name"
+                    placeholder="Enter Your First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name :</td>
+                <td><input type="text" id="name" name="name"
+                    placeholder="Enter Your Last Name"></td>
+            </tr>
+            <tr>
+                <td>email :</td>
+                <td><input type="text" id="name" name="email"
+                    placeholder="Enter Your email"></td>
+            </tr>
+            <tr>
+                <td>Password :</td>
+                <td><input type="password" id="name" name="pass"
+                    placeholder="Enter Your Password"></td>
+            </tr>
+            <tr>
+                <td>Re-Enter Password :</td>
+                <td><input type="password" id="psd" name="name"
+                    placeholder="Re-Enter Your Password"></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth :</td>
+                <td><input type="date" id="name" name="DOB"
+                    placeholder="Enter Your Date Of Birth"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number :</td>
+                <td><input type="number" id="name" name="MNUM"
+                    placeholder="Enter Your Date Of Birth"></td>
+            </tr>
+            <tr>
+                <td>Gender :</td>
+                <td><input type="radio" name="Male">Male 
+                    <input type="radio" name="Male"> Female 
+                    <input type="radio" name="Male"> others</td>
+            </tr>
+            <tr>
+                <td>Address :</td>
+                <td><textarea rows="6" cols="25"
+                    placeholder="Enter Your Address"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>State :</td>
+                        <td><input type="text" id="name" name="state"
+                            placeholder="Enter Your state"></td>
+                    </tr>
+                    <tr>
+                        <td>City :</td>
+                        <td><input type="text" id="name" name="city"
+                            placeholder="Enter Your city"></td>
+                    </tr>
+                    <tr>
+                        <td>Country :</td>
+                        <td><input type="text" id="name" name="Country"
+                            placeholder="Enter Your Copuntry"></td>
+                    </tr>
+                    <tr>
+                        <td>pincode :</td>
+                        <td><input type="text" id="name" name="num"
+                            placeholder="Enter Your pincode"></td>
+                    </tr>
+                    <tr>
+                        <td>Course Applied For :</td>
+                        <td><input type="radio" name="Male">BSC
+                            <input type="radio" name="Male">B.COM 
+                            <input type="radio" name="Male">BA 
+                            <input type="radio" name="Male">BCA
+                            <input type="radio" name="Male">BA
+                            <input type="radio" name="Male">others</td>
+                    </tr>
+            </tr>
+            <tr>
+                <td align="center" colspan="2">
+                  <button type="submit">Submit</button>
+                  &nbsp;&nbsp; <button type="reset">Reset</button>
+                </td>
+              </tr>
+              
+    </tr>
+</table>
+</form>
+    </body>
+
+</html>
