@@ -9,3 +9,5 @@ The exam questions part i took help from Online.
 - HTML
 
 - CSS
+
+- JS
